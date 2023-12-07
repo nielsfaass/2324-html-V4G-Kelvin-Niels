@@ -7,7 +7,7 @@
    This makes size of boxes visible.
    Warning 1: this settings may change your layout.
    Warning 2: keep the * as selector for all tags when uncommenting. */
-/*  * {border: 1px dotted black;}   */
+ * {border: 1px dotted black;}   
   
 /* Add semi-transparant dark background to all boxes
    The more boxes are on top of eachother the darker tghe background color
@@ -17,3 +17,36 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+
+header{
+   background-color: #e0afa0ff;
+   width: 100%;
+   height: 200px;
+   padding:0%; 
+   margin:0%;
+}
+
+#Camera_icon img{
+   margin-left: 20px;
+   margin-top: 20px;
+   float: left;
+}
+
+h1{
+   margin-top:auto;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   width: fit-content;
+   float: left;
+   
+}
+
+body{
+   margin: 0px;
+}
+
+main {
+   width:1000px;
+   margin:auto;
+}
