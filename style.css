@@ -7,7 +7,7 @@
    This makes size of boxes visible.
    Warning 1: this settings may change your layout.
    Warning 2: keep the * as selector for all tags when uncommenting. */
- * {border: 1px dotted black;}   
+
   
 /* Add semi-transparant dark background to all boxes
    The more boxes are on top of eachother the darker tghe background color
@@ -21,23 +21,10 @@
 header{
    background-color: #e0afa0ff;
    width: 100%;
-   height: 150px;
+   height: 100px;
    padding:0%; 
    margin:0;
 }
-#topnav{
-   float: right;
-   display: block;
-   color: black;
-   text-align: center;
-   text-decoration: none;
-   font-size: 17px;
-   margin:40px;
-   margin-bottom: 0%;
-   border: 1px solid black;
-   border-radius: 100px;
- }
-
 #afbeelding{
 float:left; 
 margin:15px;
@@ -53,8 +40,19 @@ header h1{
 }
 
 header p{
-   margin-top: 100px;
-   margin-left:250px;
+  float:right;
+  margin-top: 2.7%;
+  margin-right: 7%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+a{
+   text-decoration: none;
+   color: rgb(58, 57, 57)
+}
+
+a:hover{
+   color: #eeeeee;
+   
 }
 
 body{
@@ -67,8 +65,6 @@ main {
 }
 
 #wrapper {
-   width: 1000px;
-   margin:auto;
    background-color: #ffffff;
 }
 
