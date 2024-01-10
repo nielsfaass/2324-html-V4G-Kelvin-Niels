@@ -24,6 +24,7 @@ header{
    height: 100px;
    padding:0%; 
    margin:0;
+   margin-bottom: 20px;
 }
 #afbeelding{
 float:left; 
@@ -36,7 +37,7 @@ header h1{
    float:left;
    margin-top: 22px;
    margin-bottom:0%;
-   font-size: 50px;
+   font-size: 300%;
 }
 
 header p{
@@ -44,6 +45,7 @@ header p{
   margin-top: 2.7%;
   margin-right: 7%;
   font-family:Arial, Helvetica, sans-serif;
+  font-size: 100%;
 }
 a{
    text-decoration: none;
@@ -52,7 +54,11 @@ a{
 
 a:hover{
    color: #eeeeee;
-   
+   text-decoration: underline;
+   border-radius:20px;
+   border-radius: 30px;
+   background-color: #4e4e4d;
+   padding:5px;
 }
 
 body{
@@ -60,7 +66,7 @@ body{
 }
 
 main {
-   width:1000px;
+   width:100%;
    margin:auto;
 }
 
@@ -75,20 +81,46 @@ footer{
 main{
    height: 1000px;
 }
-
-article{
-   background-color: #f4f3ee;
+#article_1{
+   padding:1%;
+   margin-left: 10%;
+   margin-bottom: 5%;
    float:left;
-   margin-top: 20px;
-   margin-bottom:25px;
-   margin-left: 50px;
-   width: 400px;
-   height: 150px;
-   padding:10px;
+   background-color: #f4f3ee;
+   width: 37%;
+   height: 10%;
    border:#bcb8b1;
-   border-radius: 10px;
+   border-radius: 20px;
+}
+#article_2{
+   padding:1%;
+   margin-right: 10%;
+   margin-bottom: 5%;
+   float:right;
+   background-color: #f4f3ee;
+   width: 37%;
+   height: 10%;
+   border:#bcb8b1;
+   border-radius: 20px;
+}
+#Afbeelding_digitale_identiteit{
+   margin-left:140px;
 }
 
-#Afbeelding_digitale_identiteit{
-   margin:50px;
+img{
+   border-radius: 40px;
+}
+#afbeelding_maatregelen{
+   margin-left: 20%;
+   border
+   transition-property: all;
+}
+
+#afbeelding_maatregelen :hover{
+   height: 30%;
+   width: 22.5%;
+   background-color: #bcb8b1;
+   border-radius: 20px;
+   border: solid #bcb8b1;
+   transition: ease 0.5.s;
 }
