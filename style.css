@@ -108,8 +108,9 @@ main{
    border:#bcb8b1;
    border-radius: 20px;
 }
+
 #Afbeelding_digitale_identiteit{
-   margin-left:140px;
+   margin-left: 180px;
 }
 
 img{
@@ -130,7 +131,7 @@ img{
 }
 
 #Digitale_veiligheid:hover{
-   transform: scale (1.2);
+   transform: scale(1.2);
    transition: all 0.5s ease;
    cursor: pointer;
    margin:14px;
