@@ -1,0 +1,61 @@
+/*{
+    border: 1px dotted black;
+}
+*/
+
+body{
+    margin: 0px;
+    background-color: #f4f3eeff;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: auto;
+ }
+
+nav{
+    background-color: #e0afa0ff;
+    width: 100%;
+    height: 100px;
+    padding:0%; 
+    margin:0px;
+
+ }
+
+ header{
+    width: 100%;
+    height: 200px;
+    
+ }
+
+#article_1{
+    background-color: #eeeeeeff;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: #bcb8b1;
+}
+
+#article_2{
+    background-color: #eeeeeeff;
+    width: 435px;
+    height: 3000px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px 5px 10px 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+#virus_laptop{
+    float: left;
+    border-radius: 25px;
+    margin: 10px 10px 10px 5px;
+}
