@@ -1,6 +1,7 @@
 #wrapper {
     margin:auto;
     background-color: #f4f3ee;
+    position: relative;
 }
 nav{
     background-color: #e0afa0ff;
@@ -46,7 +47,9 @@ nav{
  }
  #matrix_code{
     margin: auto;
+    position: relative;
  }
  img{
     border-radius: 20px;
+    position: relative;
  }

@@ -18,6 +18,9 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
+html{
+   scroll-behavior: smooth;
+}
 nav{
    background-color: #e0afa0ff;
    width: 100%;
@@ -76,6 +79,7 @@ main {
 
 footer{
    background-color: #bcb8b1;
+   clear: both;
 }
 
 main{
@@ -94,8 +98,9 @@ main{
 }
 #article_2{
    padding:1%;
+   padding-bottom: 3.4%;
    margin-right: 10%;
-   margin-bottom: 5%;
+   margin-bottom: 0%;
    float:right;
    background-color: #f4f3ee;
    width: 37%;
@@ -111,16 +116,22 @@ img{
    border-radius: 40px;
 }
 #afbeelding_maatregelen{
-   margin-left: 20%;
-   border
-   transition-property: all;
 }
 
 #afbeelding_maatregelen :hover{
-   height: 30%;
-   width: 22.5%;
-   background-color: #bcb8b1;
-   border-radius: 20px;
-   border: solid #bcb8b1;
-   transition: ease 0.5.s;
+   transform: scale(1.2);
+   transition: all 0.5s ease;
+   cursor: pointer;
+   margin:14px;
+}
+
+#Digitale_veiligheid{
+   float:right;
+}
+
+#Digitale_veiligheid:hover{
+   transform: scale (1.2);
+   transition: all 0.5s ease;
+   cursor: pointer;
+   margin:14px;
 }
