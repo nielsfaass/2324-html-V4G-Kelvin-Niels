@@ -83,6 +83,7 @@ main{
    height: 1000px;
 }
 #article_1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding:1%;
    margin-left: 10%;
    margin-bottom: 0%;
@@ -94,8 +95,9 @@ main{
    border-radius: 20px;
 }
 #article_2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding:1%;
-   padding-bottom: 2.355%;
+   padding-bottom: 6.56%;
    margin-right: 10%;
    margin-bottom: 0%;
    float:right;
