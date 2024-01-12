@@ -95,7 +95,7 @@ main{
 }
 #article_2{
    padding:1%;
-   padding-bottom: 2.35%;
+   padding-bottom: 2.355%;
    margin-right: 10%;
    margin-bottom: 0%;
    float:right;
@@ -123,7 +123,6 @@ img{
    transform: scale(1.2);
    transition: all 0.5s ease;
    cursor: pointer;
-   margin:14px;
 }
 
 #Digitale_veiligheid{
@@ -137,6 +136,34 @@ img{
    transition: all 0.5s ease;
    cursor: pointer;
 }
+
+#afbeelding_Bedreigingen{
+   float:left;
+   margin-left:20%;
+   margin-top: 20px;
+}
+
+#afbeelding_Bedreigingen:hover{
+   transform: scale(1.2);
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+#afbeelding_aanvallers_en_verdedigers{
+   float:right;
+   margin-right:20%;
+   margin-top: 20px;
+}
+
+#afbeelding_aanvallers_en_verdedigers:hover{
+   transform: scale(1.2);
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+#Afbeelding_digitale_identiteit{
+   decoration:none;
+}
+
 
 html{
    scroll-behavior:smooth;
