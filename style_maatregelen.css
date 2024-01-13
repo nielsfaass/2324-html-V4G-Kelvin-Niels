@@ -1,95 +1,160 @@
-/************************* DEBUG SETTINGS *************************/
+/*{
+    border: 1px dotted black;
+}
+*/
 
-/* Settings to help find errors in your css
-   uncomment to enable */
+body{
+   margin: 0px;
+   background-color: #f4f3eeff;
+}
 
-/* Add dotted line around all boxes.
-   This makes size of boxes visible.
-   Warning 1: this settings may change your layout.
-   Warning 2: keep the * as selector for all tags when uncommenting. */
-  
-/* Add semi-transparant dark background to all boxes
-   The more boxes are on top of eachother the darker tghe background color
-   Warning: keep the * as selector for all tags when uncommenting. */
-/*  * {background-color: rgba(0,0,0,5%);}  */
-
-/************************* YOUR SETTINGS *************************/
-
-/* add your css here, feel free to use comments and order them logically for better readability */
-
+#wrapper{
+   width: 1000px;
+   margin: auto;
+}
 
 nav{
-    background-color: #e0afa0ff;
-    width: 100%;
-    height: 100px;
-    padding:0%; 
-    margin:0;
-    margin-bottom: 20px;
- }
- #afbeelding{
- float:left; 
- margin:15px;
- }
- 
- nav h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eeeeee;
-    float:left;
-    margin-top: 22px;
-    margin-bottom:0%;
-    font-size: 300%;
- }
- 
- nav p{
-   float:right;
-   margin-top: 2.7%;
-   margin-right: 7%;
-   font-family:Arial, Helvetica, sans-serif;
-   font-size: 100%;
- }
- a{
-    text-decoration: none;
-    color: rgb(58, 57, 57)
- }
- 
- a:hover{
-    color: #eeeeee;
-    text-decoration: underline;
-    border-radius:20px;
-    border-radius: 30px;
-    background-color: #4e4e4d;
-    padding:5px;
- }
- 
- body{
-    margin: 0px;
- }
- 
- main {
-    width:100%;
-    margin:auto;
- }
- 
- #wrapper {
-    background-color: #ffffff;
- }
- 
- footer{
-    background-color: #bcb8b1;
-    clear: both;
- }
- 
- main{
-    height: 1000px;
- }
- 
- 
- 
- html{
-    scroll-behavior:smooth;
- }
+   background-color: #e0afa0ff;
+   width: 100%;
+   height: 100px;
+   position: fixed;
+}
 
- header{
-    margin-left: auto;
-    margin-right: auto;
- }
+#camera_icon{
+   margin: 15px;
+   float: left;
+}
+
+nav h1{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   float: left;
+   margin: 25px 25px 25px 15px;
+   font-size: 275%;
+}
+
+#nav_links{
+   float: left;
+   margin: 39px 0px 39px 0px;
+
+}
+
+#nav_links a{
+   text-decoration: none;
+   color: #eeeeee;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px 15px 10px 15px;
+   font-size: 19px;
+}
+
+#nav_links a:hover{
+   background-color: #DD9F91;
+   border-radius: 10px;
+}
+
+.active{
+   background-color: #DD9F91;
+   border-radius: 10px;
+}
+
+#contact_button{
+   float: right;
+   margin: 39px 39px 39px 0px;
+}
+
+#contact_button a{
+   text-decoration: none;
+   color: #eeeeee;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px 15px 10px 15px;
+   font-size: 19px;
+}
+
+#contact_button a:hover{
+   background-color: #DD9F91;
+   border-radius: 10px;
+}
+
+#header_spacer{
+   background-color: white;
+   width: 1000px;
+   height: 100px;
+}
+
+header{
+   width: 100%;
+   height: 200px;
+}
+
+
+
+footer{
+   background-color: #bcb8b1ff;
+   width: 100%;
+   height: 150px;
+}
+
+#footer_begin{
+   width: fit-content;
+   height: 100%;
+   float: left;
+}
+
+#footer_begin_link{
+   text-decoration: none;
+}
+
+#footer_begin h1{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   margin: 25px;
+   font-size: 275%;
+}
+
+#footer_begin p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   clear: both;
+   margin: 0px 25px 0px 25px;
+   width: fit-content;
+}
+
+#footer_links{
+   float: right;
+   height: 100%;
+}
+
+#footer_links dl{
+   margin: 0px;
+   height: auto;
+   width: auto;
+   margin: 32px;
+}
+
+#footer_links dt{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   font-size: 20px;
+}
+
+#footer_links dd{
+   margin: 20px 10px 10px 10px;
+   padding: 10px 30px 10px 30px;
+}
+
+.mail{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #eeeeee;
+   font-size: 20px;
+   padding: 10px 30px 10px 30px;
+   text-decoration: none;
+
+}
+
+#footer_links a:hover{
+   background-color: #a8a49dff;
+   border-radius: 10px;
+   color: white;
+
+}
