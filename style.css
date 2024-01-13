@@ -29,6 +29,7 @@ nav{
 #afbeelding{
 float:left; 
 margin:15px;
+
 }
 
 nav h1{
@@ -72,6 +73,8 @@ main {
 
 #wrapper {
    background-color: #ffffff;
+   width: 1200;
+   margin:auto;
 }
 
 footer{
@@ -85,11 +88,12 @@ main{
 #article_1{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding:1%;
-   margin-left: 10%;
+   margin-left: 18%;
+   margin-right: 25px;
    margin-bottom: 0%;
    float:left;
    background-color: #f4f3ee;
-   width: 37%;
+   width: 550px;
    height: 10%;
    border:#bcb8b1;
    border-radius: 20px;
@@ -97,19 +101,19 @@ main{
 #article_2{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding:1%;
-   padding-bottom: 6.56%;
+   padding-bottom: 90px;
    margin-right: 10%;
    margin-bottom: 0%;
-   float:right;
+   float:left;
    background-color: #f4f3ee;
-   width: 37%;
+   width: 550px;
    height: 10%;
    border:#bcb8b1;
    border-radius: 20px;
 }
 
 #Afbeelding_digitale_identiteit{
-   margin-left: 6.3%;
+   margin-left:18%;
 }
 
 img{
