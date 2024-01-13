@@ -83,10 +83,50 @@ nav h1{
 
 header{
    width: 100%;
-   height: 200px;
+   height: 306px;
 }
 
+#article_1{
+   background-color: #eeeeeeff;
+   width: 435px;
+   height: auto;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 10px 5px 5px 10px;
+   float: left;
+}
 
+#cyber_awereness{
+   float: left;
+    border-radius: 25px;
+    margin: 10px 10px 5px 5px;
+}
+
+#cyber_lock{
+   float: left;
+    border-radius: 25px;
+    margin: 5px 5px 10px 10px;
+}
+
+#article_2{
+   background-color: #eeeeeeff;
+   width: 435px;
+   height: auto;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 5px 10px 10px 5px;
+   float: left;
+}
+
+#article_3{
+   background-color: #eeeeeeff;
+   width: auto;
+   height: auto;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 10px;
+   clear: both;
+}
 
 footer{
    background-color: #bcb8b1ff;
