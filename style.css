@@ -162,10 +162,6 @@ img{
    transition: all 0.5s ease;
    cursor: pointer;
 }
-#Afbeelding_digitale_identiteit{
-   decoration:none;
-}
-
 
 html{
    scroll-behavior:smooth;
