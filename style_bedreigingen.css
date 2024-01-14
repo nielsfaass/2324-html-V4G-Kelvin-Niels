@@ -137,7 +137,8 @@ background-color: #eeeeeeff;
 }
 
 #matrix_code{
-   border-radius: 0%;
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
 }
 
 #article_1{
