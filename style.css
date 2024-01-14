@@ -119,6 +119,7 @@ nav h1{
 
 img{
    border-radius: 40px;
+   animation-fill-mode: both;
 }
 #afbeelding_maatregelen{
    float:right;
