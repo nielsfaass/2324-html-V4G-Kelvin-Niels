@@ -1,10 +1,8 @@
 body{
-   margin: 0px;
    background-color: #f4f3eeff;
 }
 
 #wrapper{
-   width: 1000px;
    margin: auto;
 }
 
@@ -82,7 +80,6 @@ footer{
 }
 
 main{
-   height: 1000px;
 }
 
 
@@ -92,5 +89,4 @@ html{
 }
 
 header{
-   margin-left: 6.3%;
 }
