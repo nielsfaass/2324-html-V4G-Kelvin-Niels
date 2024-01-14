@@ -17,6 +17,10 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
+html{
+   scroll-behavior: smooth;
+}
+
 body{
    margin: 0px;
    background-color: #f4f3eeff;
@@ -163,10 +167,6 @@ img{
    transform: scale(1.2);
    transition: all 0.5s ease;
    cursor: pointer;
-}
-
-html{
-   scroll-behavior: smooth;
 }
 
 footer{
