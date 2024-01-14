@@ -24,7 +24,7 @@ nav{
 }
 
 #camera_icon{
-    margin: 15px;
+    margin: 15px 15px 10px 15px;
     float: left;
 }
 
@@ -77,6 +77,20 @@ header{
     border-radius: 25px;
     padding: 25px;
     margin: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+#article_1 h2{
+    text-align: center;
+}
+
+#article_1 ol{
+    margin: 0px;
+}
+
+#article_1 p{
+    margin-bottom: 5px;
 }
 
 #line{
