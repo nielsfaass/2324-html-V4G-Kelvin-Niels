@@ -59,16 +59,98 @@
       
 
     <article id="article_2">
-      Article 2.
+      <h3>Vertrouwelijkheid</h3>
+      <p>
+        Voordat er toegang wordt verleend aan iemand moet het systeem weten of de persoon wel toegang mag hebben. 
+        Dit wordt gedaan met authenticatie.<br>
+        Er kan worden gekeken naar:
+      </p>
+      <ul>
+        <li>Iets dat je <b>weet</b>: een wachtwoord of pincode.</li>
+        <li>Iets dat je <b>hebt</b>: een sleutel of pas.</li>
+        <li>Iets dat je <b>permanent bij je draagt</b>: een vingerafdruk of iris patroon.</li>
+      </ul>
+      <p>
+        Authenticatie kan worden onderverdeeld in identificatie en verificatie. Bij identificatie wordt er aan je gevraagd: “Wie ben je?” 
+        Dit wordt bijvoorbeeld gedaan met een gebruikersnaam en wachtwoord of het laten scannen van je vingerafdruk. Bij verificatie gaat het om de vraag: “Ben je wie je zegt dat je bent?” 
+        Verificatie kan alleen plaatsvinden als er gegevens al bekend zijn in een database. Er wordt dus gecontroleerd of jij wel echt de juiste persoon bent die toegang mag krijgen.
+      </p>
+      <p>
+        Door twee vormen van Authenticatie bij elkaar te voegen krijg je een extra veilige toegangscontrole. Dit wordt bijvoorbeeld gedaan bij het betalen met je pinpas. 
+        Om te betalen gebruik je iets dat je hebt (pinpas) en iets dat je weet (pincode). Deze combinatie wordt “two factor authentication” genoemd. Er worden dus 2 vormen van authenticatie samengevoegd.
+      </p>
+      <p>
+        Iets dat op authenticatie lijkt is screening, hierbij wordt gekeken naar personen of voertuigen en een blacklist/whitelist als iets of iemand op de blacklist staat weet het systeem dat hij actie moet ondernemen.
+      </p>
+
     </article>
 
       <img id="virus_laptop" src="Plaatjes/virus_laptop.png" alt="virus_laptop" tile="virus_laptop" style="width: 485px;" height="281px">
 
     <article id="article_3">
-      Article 3.
+      <h3>Integriteit</h3>
+      <p>
+        Als gebruiker van een computer heb je bepaalde rechten, wat je wel en niet kan doen. Jouw rechten worden bepaald door jouw rol in de computer. 
+        Als jij een administrator rol hebt, dan heb je alle rechten, maar als je een leerlingrol hebt, op bijvoorbeeld een schoolcomputer, heb je een stuk minder rechten dan de administrator.
+      </p>
+      <p>
+        Als je controleert of een gebruiker toegang heeft gaat het om vertrouwelijkheid, maar als je controleert welke rechten een gebruiker heeft gaat het om autorisatie of ook wel integriteit.
+      </p>
+      <p>
+        Met integriteit kan je ervoor zorgen dat docenten een bepaalde (netwerk)schijf hebben waarom ze zaken als toetsen kunnen delen met elkaar, zonder dat leerlingen daarbij kunnen.
+      </p>
+
+      <p>
+        Integriteit kan ook meer betekenen. Stel je voor dat je een bestand met iemand anders wilt delen. Bijvoorbeeld via het internet, of via een USB-stick. 
+        Hoe weet de ontvanger dan zeker dat het bestand dat hij krijgt het originele bestand is? 
+        Misschien is er onderweg wel iets gebeurd met het bestand, waardoor de inhoud is aangepast. Als dat zo is, dan is de integriteit van het bestand aangetast. De originaliteit van dat bestand is te controleren met een checksum. 
+        Dit is een soort vingerafdruk voor het bestand. Als het checksum van het originele bestand overeenkomt met het checksum van het bestand dat van de USB-stick is afgehaald, dan weet je dus dat het precies hetzelfde bestand is.
+      </p>
+
+      <h3>Beschikbaarheid</h3>
+      <p>
+        Data moet altijd beschikbaar zijn zodat je er toegang voor kan krijgen. Om ervoor te zorgen dat data beschikbaar blijft moeten er beveiligingsupdates geïnstalleerd worden of defecte hardware-onderdelen worden vervangen. 
+        Als het toch gebeurt dat de data niet beschikbaar is moet er een back-up zijn zodat je toch bij het grootste deel van de data kan. Een back-up kan gemaakt worden in clouddiensten of op extern geheugen.
+      </p>
+      
+      <p>
+        Experts raden aan om het 3-2-1-systeem voor backups te gebruiken:
+      </p>
+
+      <table>
+        <tr>
+          <td>3 kopieën.</td>
+          <td>1 kopie op je computer, 1 kopie fysiek thuis, 1 kopie op een andere locatie.</td>
+        </tr>
+        <tr>
+          <td>2 verschillende manieren opgeslagen.</td>
+          <td>Geprint en opgeslagen op een schijf.</td>
+        </tr>
+        <tr>
+          <td>1 kopie op een andere locatie.</td>
+          <td>1 kopie bij je vriend thuis.</td>
+        </tr>
+      </table>
+
+      <p>
+        Voor een toegangscontrole moeten er gegevens opgeslagen worden die wachtwoorden en pincodes bevatten. Om dit veilig op te kunnen slaan wordt er gebruikgemaakt van encryptie. 
+        Door van encryptie gebruik te maken bij het opslaan van bestanden, wordt de data in de bestanden wiskundig door elkaar gehaald zodat het compleet onleesbaar wordt. 
+        Met een sleutel (vaak een wachtwoord) kan je weer het bestand leesbaar krijgen. Dit is handig als je bestanden met gevoelige informatie wil sturen naar iemand zonder dat hackers kunnen meekijken wat er in het bestand staat.
+      </p>
+
+      <P>
+        Encryptie zorgt ervoor dat het bestand op slot gaat maar wel weer kan worden geopend. Maar bij hashing wordt een bestand zo door elkaar gehaald dat het niet meer terug naar het origineel kan. 
+      </P>
+
+      <p>
+        Het kan voorkomen dat data niet meer beschikbaar is, dat kan dan komen door een DDoS-aanval (Distributed Denial of Service). 
+        Bij een DDoS-aanval zorgt iemand ervoor dat een bepaalde service veel meer aanvragen krijgt dan normaal zodat de service servers het niet meer aankunnen en crashen. 
+        Om zo’n DDoS-aanval tegen te gaan kan er gebruikgemaakt worden van een filter die kijkt of de inkomende aanvragen wel legitiem zijn of dat ze deel zijn van een DDoS-aanval.
+      </p>
+
     </article>
 
-    <img id="security_levels" src="Plaatjes/img-blog-cybersecurity-risk-levels-2.jpg" alt="security_levels" title="security_levels" style="width: 980px; height: auto;">
+    <img id="security_levels" src="Plaatjes/DDoS-aanval.jpg" alt="DDoS-aanval" title="DDoS-aanval" style="width: 980px; height: auto;">
 
     </div>
   </main>

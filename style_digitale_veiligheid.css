@@ -107,6 +107,8 @@ header{
     padding: 25px;
     margin: 10px 5px 5px 10px;
     float: left;
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 25px;
 }
 
 #virus_laptop{
@@ -123,6 +125,18 @@ header{
     padding: 25px;
     margin: 0px 5px 5px 10px;
     clear: both;
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+#article_3 table{
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 0px 5px 0px 5px;
+}
+
+#article_3 td{
+    border: 1px black solid;
 }
 
 #security_levels{
