@@ -53,33 +53,37 @@
   height="350">
 
 <div id="article_1">
-  <h1>zwakheden in de architectuur</h1>
+  <h2>zwakheden in architectuur</h2>
   <p>
-   De zwakheid in een apparaat/architectuur ligt meestal aan dat er een tekort is in 1 van de lagen in 
-   <a href="https://infvo.nl/inf20/index.php/3-lagen_model">het lagenmodel</a> van het apparaat 
-   of omdat er een communicatiefout zit tussen de lagen. Vaak had de ontwerper of maker die fout helemaal niet voorzien.
-   <br>
-  Een voorbeeld is de camera op je telefoon. Wanneer een app gebruik wil maken van je camera, 
-  verschijnt er eerst een pop-up waarin je toestemming moet geven. Het kan gebeuren dat er een
-  manier wordt gevonden om de camera te gebruiken zonder dat de pop-up verschijnt. Een aanvaller
-  kan dan meekijken met je camera zonder dat je dat doorhebt.
+  Er zijn verschillende soorten zwakheden. Er zijn zwakheden in architectuur, communicatie en zwakheden bij gebruikers
   <br>
-  In grote bedrijven kan er een "lek" ontstaan in hun website of systeem. Dat wil zeggen dat een kwade 
-  partij een zwakte heeft gevonden in de architectuur en daarmee schade wil aanrichten.
+  Zwakheden in architectuur wil zeggen dat er een zwakte is in <a href="https://infvo.nl/inf20/index.php/3-lagen_model">
+    het lagenmodel</a>
+   van het apparaat. Vaak komt dat doordat er een tekort is in 1 van de lagen van het lagenmodel. Dit wordt meestal niet 
+   voorzien door de ontwerper. 
   <br>
-  Een ander voorbeeld is de vraagtaal SQL. Een app of website kan gegevens ophalen uit een database en deze weergeven.
-  Stel dat het lukt om de vraag vanuit de app naar de database aan te passen. Dan is het ineens mogelijk om andere 
-  gegevens uit de database te selecteren dan die oorspronkelijk worden gevraagd. En het is in theorie zelfs mogelijk 
-  om nieuwe gegevens toe te voegen, bestaande gegevens aan te passen en zelfs te verwijderen!
-  Dit wordt een SQL-injectie genoemd. Het is een vorm van hacken waardoor er gegevens in een slecht beveiligde 
-  databaseverbinding kunnen worden aangepast.
+  Een voorbeeld van een zwakte kan je camera zijn. Meestal komt er een pop-up voor toestemming van je camera. Het kan zo 
+  zijn dat je camera wordt gebruikt zonder dat je toestemming hebt gegeven. Zo kan een aanvaller door je camera heen kijken
+   zonder dat je het doorhebt. Als iemand of een partij een zwakte heeft gevonden in de architectuur, heet dat een lek. Dit
+    wordt gebruikt om schade aan te richten
   <br>
-  Als je een app of programma maakt dat een database gebruikt, moet je altijd zorgen dat deze verbinding goed 
-  beveiligd is en dat je input van gebruikers altijd filtert.
-  Als je wil weten of je architectuur zwakheden heeft, kan je bijvoorbeeld je eigen architectuur proberen te 
-  kraken om zo fouten op te kunnen sporen.
+  Een ander voorbeeld is de vraagtaal SQL. Een app of website kan gegevens ophalen uit een database en deze weergeven. 
+  Stel dat het lukt om de vraag vanuit de app naar de database aan te passen. Dan is het ineens mogelijk om andere gegevens
+   uit de database te selecteren dan die oorspronkelijk worden gevraagd. En het is in theorie zelfs mogelijk om nieuwe gegevens 
+   toe te voegen, bestaande gegevens aan te passen en zelfs te verwijderen!
+  <br>
+  Dit wordt SQL-injectie genoemd. Het is een vorm van hacken waardoor gegevens in een slecht beveiligde databaseverbinding 
+  kunnen worden aangepast.
+  <br>
+  Als je een app of programma maakt dat een database gebruikt, moet je altijd zorgen dat deze verbinding goed beveiligd is 
+  en dat je input van gebruikers altijd filtert.
+  <br>
+  Je kan zwakheden voorkomen in je architectuur door je eigen ontwerp te proberen te hacken. Dit wordt vaak gedaan door 
+  ethische hackers
   </p>
-  <h2>Zwakheden in communicatie</h2>
+  
+  
+  
 </div>
 
 <img id="img_2" src="Plaatjes/lagen_apparaat.png"
@@ -89,8 +93,41 @@ width="400"
 height="350">
 
 <div id="article_2">
+  <h2>Zwakheden in communicatie</h2>
   <p>
-
+  Een andere manier van hacken is het opvangen van informatie tussen de gebruiker en bijvoorbeeld de applicatie. 
+  Dit komt doordat de gebruiker informatie moet verzenden naar de applicatie om er gebruik van te kunnen maken. 
+  Als dat niet goed beveiligd is, kan je die informatie er zo uit plukken. Dit noem je Man-in-the-Middle aanval. 
+  Deze techniek werd vroeger nogal eens gebruikt door een openbaar wifi-netwerk op te zetten. Nietsvermoedende 
+  gebruikers verbinden hiermee en maken gebruik van het internet. Maar ondertussen loopt al het internetverkeer 
+  via de hotspot van de aanvaller.
+  <br>
+  Voor een beter internetverkeer gebruiken we nu HTTPS. Hiermee wordt er een beveiligde verbinding gelegd tussen 
+  de cliënt en de server. Het blijft dan mogelijk om internetverkeer af te luisteren, maar het is niet meer in te 
+  zien, omdat het door middel van encryptie <a href="maatregelen.html">(zie maatregelen)</a> beveiligd is. Als je 
+  gebruikmaakt van HTTPS-verbindingen, ben je ook een stuk minder vatbaar voor een man-in-the-middle aanval, omdat
+   de verstuurde gegevens versleuteld zijn.
+  <br>
+  Om HTTPS mogelijk te maken, moet de beheerder van een website een SSL-certificaat installeren. Dat certificaat
+   bevat gegevens over degene van wie de website is. Op die manier weet de client wie er achter de server zit 
+   waarmee hij verbonden is. Omgekeerd is dat niet het geval. Als client hoef je geen certificaat te hebben. 
+   Dat betekent dat de server niet weet wie de gebruiker is die de website bezoekt. Als de server per se moet
+    weten wie de client is, zal de website aan de gebruiker moeten vragen om in te loggen.
+  <br>
+  Het certificaat moet door de beheerder van de website worden aangevraagd bij een centrale organisatie. 
+  Die organisatie geeft alleen certificaten uit aan mensen, instanties of bedrijven die bewezen hebben dat
+   de website ook echt van hen is, bijvoorbeeld door ze een stukje code op de website te laten publiceren.
+    Een webbrowser vertrouwt alleen certificaten die door zulke organisaties zijn uitgegeven. Dat laat hij
+     zien met een hangslotje in de adresbalk.
+  <br>
+  Als het goed is, weet je al wat encryptie is. Het betekent dat de verzonden gegevens onleesbaar worden gemaakt.
+   Waar een HTTPS-verbinding alleen zorgt voor de beveiliging tussen de cliënt en een server, gaat end-to-end encryption
+    nog een stap verder.
+  <br>
+  Bij een HTTPS-verbinding kan de server natuurlijk de originele verzonden gegevens nog inzien en opslaan. 
+  Aanvallers maken daar gebruik van door in te breken en de gegevens te stelen.
+  <br>
+  Om dit te voorkomen is er end-to-end encryption. Dat wil zeggen dat de gegevens zijn versleutelt, totdat de client de server weer gebruikt.
   </p>
 </div>
 

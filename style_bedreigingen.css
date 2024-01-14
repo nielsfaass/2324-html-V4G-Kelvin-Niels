@@ -2,6 +2,7 @@ body{
    background-color: #f4f3eeff;
    margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
+   line-height: 25px;
 }
 
 #wrapper{
@@ -143,21 +144,23 @@ background-color: #eeeeeeff;
 }
 
 #article_1{
-   width:480px;
-   height: 950px;
+   width:410px;
+   height: fit-content;
    background-color:#eeeeeeff;
    border-radius: 40px;
    margin: 1%;
    float: left;
+   padding:1% 2%;
 }
 
 #article_2{
    width: 95%;
-   height: 700px;
+   height: fit-content;
    background-color:#eeeeeeff;
    border-radius: 40px;
    margin: 1%;
    clear: both;
+   padding: 1% 2%;
 }
 
 #img_2{
