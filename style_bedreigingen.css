@@ -139,8 +139,7 @@ background-color: #eeeeeeff;
 }
 
 #matrix_code{
-   border-top-left-radius: 0%;
-   border-top-right-radius: 0%;
+border-radius: 0%;
 }
 
 #article_1{
@@ -176,4 +175,7 @@ background-color: #eeeeeeff;
 table, th{
    border:solid black;
    border-collapse: collapse;
+}
+header{
+   border-radius: 0%;
 }
