@@ -18,7 +18,8 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 body{
-   margin:0px;
+   margin: 0px;
+   background-color: #f4f3eeff;
 }
 
 #wrapper{
