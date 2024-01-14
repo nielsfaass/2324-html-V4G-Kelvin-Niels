@@ -70,10 +70,6 @@ header{
     height: 200px;
 }
 
-main h3{
-    margin-top: 0px;
-}
-
 main p{
     margin-bottom: 0px;
  }
@@ -151,6 +147,10 @@ main p{
     border-radius: 25px;
     margin: 5px 10px 5px 10px;
 }
+
+.margin_fix{
+    margin-top: 0px;
+ }
 
 footer{
     background-color: #bcb8b1ff;

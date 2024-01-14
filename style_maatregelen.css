@@ -68,10 +68,6 @@ header{
    height: 306px;
 }
 
-main h3{
-   margin-top: 0px;
-}
-
 main p{
    margin-bottom: 0px;
 }
@@ -86,6 +82,7 @@ main p{
    float: left;
    font-family: Verdana, Tahoma, sans-serif;
    line-height: 25px;
+   padding-top: 0px;
 }
 
 #article_1 h2{
@@ -113,6 +110,7 @@ main p{
    float: right;
    font-family: Verdana, Tahoma, sans-serif;
    line-height: 25px;
+   padding-top: 0px;
 }
 
 #article_3{
@@ -135,6 +133,10 @@ main p{
    border: black 1px solid;
    vertical-align: top;
    width: 465px;
+}
+
+.margin_fix{
+   margin-top: 0px;
 }
 
 footer{
