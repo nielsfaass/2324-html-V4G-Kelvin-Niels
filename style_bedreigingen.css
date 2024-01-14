@@ -172,3 +172,8 @@ background-color: #eeeeeeff;
    float: right;
    margin:5%;
 }
+
+table, th{
+   border:solid black;
+   border-collapse: collapse;
+}
