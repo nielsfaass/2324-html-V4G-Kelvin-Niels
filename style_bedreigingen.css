@@ -3,6 +3,7 @@ body{
 }
 
 #wrapper{
+   width: 1000px;
    margin: auto;
 }
 
@@ -79,14 +80,8 @@ footer{
    clear: both;
 }
 
-main{
+img{
+   border-radius: 40px;
+   margin-top: 20px;
 }
 
-
-
-html{
-   scroll-behavior:smooth;
-}
-
-header{
-}
