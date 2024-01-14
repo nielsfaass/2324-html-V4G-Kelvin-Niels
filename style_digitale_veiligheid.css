@@ -70,6 +70,14 @@ header{
     height: 200px;
 }
 
+main h3{
+    margin-top: 0px;
+}
+
+main p{
+    margin-bottom: 0px;
+ }
+
 #article_1{
     background-color: #eeeeeeff;
     width: auto;

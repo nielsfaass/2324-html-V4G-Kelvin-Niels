@@ -68,6 +68,14 @@ header{
    height: 306px;
 }
 
+main h3{
+   margin-top: 0px;
+}
+
+main p{
+   margin-bottom: 0px;
+}
+
 #article_1{
    background-color: #eeeeeeff;
    width: 435px;
@@ -76,16 +84,21 @@ header{
    padding: 25px;
    margin: 10px 5px 5px 10px;
    float: left;
+   font-family: Verdana, Tahoma, sans-serif;
+   line-height: 25px;
 }
 
-#cyber_awereness{
+#article_1 h2{
+   text-align: center;
+}
+
+#cyber_lock{
    float: left;
     border-radius: 25px;
     margin: 10px 10px 5px 5px;
 }
 
-#cyber_lock{
-   float: left;
+#cyber_awereness{
     border-radius: 25px;
     margin: 5px 5px 10px 10px;
 }
@@ -97,7 +110,9 @@ header{
    border-radius: 25px;
    padding: 25px;
    margin: 5px 10px 10px 5px;
-   float: left;
+   float: right;
+   font-family: Verdana, Tahoma, sans-serif;
+   line-height: 25px;
 }
 
 #article_3{
@@ -107,7 +122,19 @@ header{
    border-radius: 25px;
    padding: 25px;
    margin: 10px;
+   font-family: Verdana, Tahoma, sans-serif;
+   line-height: 25px;
    clear: both;
+}
+
+#article_3 table{
+   border-collapse: collapse;
+}
+
+#article_3 td{
+   border: black 1px solid;
+   vertical-align: top;
+   width: 465px;
 }
 
 footer{
